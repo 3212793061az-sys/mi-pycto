@@ -1,3 +1,4 @@
+print("hola")
 def calculadora():
     while True:
         try:
