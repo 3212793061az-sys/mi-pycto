@@ -11,7 +11,7 @@ while intentos > 0:
     if respuesta == respuesta_correcta:
         print("🎉 ¡Correcto! Ganaste la primera.\n")
         
-        # Segunda adivinanza
+      
         intentos2 = 3
         while intentos2 > 0:
             pregunta = input("Me puedes romper sin tocarme, puedes decirme sin hablar. ¿Qué soy? ").strip().lower()
@@ -21,10 +21,7 @@ while intentos > 0:
                 break
             else:
                 intentos2 -= 1
-                print("❌ Incorrecto. Te quedan", intentos2, "intentos.\n")
-        
-        break  # salir del primer while si ya llegó aquí
-
+                print("❌ Incorrecto. Te quedan", intentos2, "intentos.\n"
     else:
         intentos -= 1
         print("❌ Incorrecto. Te quedan", intentos, "intentos.\n")
